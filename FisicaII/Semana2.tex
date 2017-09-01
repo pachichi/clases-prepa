@@ -1,0 +1,127 @@
+\documentclass[handout]{beamer}
+\usetheme[]{Szeged}
+\usecolortheme{beaver}
+\setbeamertemplate{footline}[frame number]
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{textcomp}
+\usepackage{multimedia}
+\DeclareGraphicsExtensions{.png,.pdf,.jpg,.jpeg}
+\graphicspath{{imagenes/}} %directorio donde se guardan las imagenes
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\SetLabelAlign{parright}{\parbox[t]{\labelwidth}{\raggedleft#1}}
+\setlist[description]{style=multiline,topsep=10pt,leftmargin=4cm,align=parright}
+\setlist[itemize]{label=\textbullet}
+
+\title{Física II}
+\author{Fluidos}
+\institute[UVM]{4\textdegree \hspace{2pt} cuatrimestre.}
+\logo{\includegraphics[width=1.2cm]{uvm}}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}[noframenumbering]
+  \titlepage
+  \begin{center}
+    \includegraphics[width=5.5cm]{uvm1}    
+  \end{center}  
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Principio de Pascal}
+  \begin{block}{}
+    Toda presión que se ejerce sobre un líquido encerrado en un recipiente se transmite
+    con la misma intensidad a todos los puntos del líquido y a las paredes del recipiente
+    que lo contiene.
+  \end{block}
+  
+  {\huge \[\frac{F}{A} = \frac{f}{a}\]}
+  
+  \begin{tabular}{ll}
+    $F:$ & Fuerza sobre émbolo mayor (N).  \\ 
+    $A:$ & Área del émbolo mayor (m$^2$) \\ 
+    $f:$ & Fuerza sobre émbolo menor (N). \\
+    $a:$ & Área del émbolo menor (m$^2$) \\
+  \end{tabular}
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Principio de Arquímedes}
+  \begin{block}{}
+    La magnitud de la fuerza debida al empuje ejercido por un fluido cuando un objeto se
+    sumerge en él depende de peso específico y del volumen del fluido desalojado.   
+  \end{block}
+  {\huge \[E = P_{e}V\]}
+  
+  \begin{tabular}{ll}
+    $E:$ & Empuje sobre el objeto (N).  \\ 
+    $P_{e}:$ & Peso específico del líquido (N/m$^3$). \\ 
+    $V:$ & El volumen del objeto sumergido en el líquido (m$^3$). \\
+  \end{tabular}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Ejercicios resueltos}
+\begin{enumerate}
+\item Sobre una prensa hidráulica se ejerce sobre el émbolo menor una fuerza de 79 N. Si
+  el área del émbolo mayor es 38 cm$^2$ y el área del émbolo menor 12 cm$^2$, calcular la
+  fuerza que se obtiene en el émbolo mayor.
+\item El radio de un émbolo menor es de 0.2 m. Si se aplica una fuerza de 244 N sobre el
+  émbolo mayor y se obtiene una fuerza de 2531 N sobre el émbolo menor, cuál es el radio
+  del émbolo mayor. 
+\item Un cubo de plomo de con un volumen de 25 cm$^3$ se sumerge completamente dentro de
+  de aceite. Calcular el empuje que recibe el cubo. Cuál es el peso aparente del cubo.
+\item Una esfera de madera, con radio 0.1 m, se sumerge hasta la mitad en agua de mar, ¿cuál es empuje
+  recibido? ¿Cuál es el peso aparente de la esfera?
+\item ¿Puede el acero flotar en el agua?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks,t]
+\frametitle{Ejercicios propuestos}
+\begin{enumerate}
+\item Calcular la magnitud de la guerza que se aplica en el émbolo menor de una prensa
+  hidráulica de 10 cm$^2$ de área, si en el émbolo mayor con una área de 150 cm$^2$ se
+  produce una fuerza  cuya magnitud es 10500N. 
+\item Una fuerza de 400 N se aplica al pistón pequeño de una prensa hidráulica cuyo
+  diámetro es 4 cm. ¿Cuál deberá ser el diámetro del pistón grande para que pueda levantar
+  una carga de 200 kg?
+
+\item Un trozo de hielo grande flota en vaso de agua, de modo que el nivel de ésta queda
+  hasta el borde del vaso. ¿Se derramará agua cuando el hielo se derrita? Explicar.
+
+\item Un cubo de acero de 18 cm de arista se sumerge totalmente en agua. Si la magnitud
+  de su peso es de 480 N, calcula:
+  \begin{itemize}
+  \item ¿qué magnitud de empuje recibe?
+  \item ¿cuál será la magnitud de peso aparente del cubo?
+  \end{itemize}
+  
+\item Un prisma rectangular de cobre, de base igual a 36 cm$^2$ y una altura de 10 cm, se
+  sumerge hasta la mitad por medio de un alambre en un recipiente que contiene
+  alcohol. $\rho_{alcohol} = 790 $ kg/m$^3$
+  \begin{itemize}
+  \item ¿Qué volumen de alcohol desaloja?
+  \item ¿Qué magnitud de empuje recibe?
+  \item ¿Cuál es el peso aparente del prisma debido al empuje, si su peso real es de 31.36
+    N?
+  \end{itemize}
+
+\item Un globo meteorológico requiere operar a una altitud donde la densidad del aire es
+  0.9 kg/m$^3$. A esa altitud, el globo tiene un volumen de 20 m$^3$ y está lleno de helio
+  ($\rho_{He} = 0.178$) kg/m$^3$. Si la bolsa del globo pesa 88 N, ¿qué carga es capaz de
+  soportar a este nivel?
+\end{enumerate}
+\end{frame}
+
+
+\end{document}
