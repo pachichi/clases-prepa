@@ -56,26 +56,26 @@
 
 
 
-\section{Electricidad}
+% \section{Electricidad}
 
-\begin{frame}[allowframebreaks,t]
-  \frametitle{Carga eléctrica}
-  \begin{itemize}
-  \item Carga electrica
-  \item Conservación de la carga
-  \end{itemize}
+% \begin{frame}[allowframebreaks,t]
+%   \frametitle{Carga eléctrica}
+%   \begin{itemize}
+%   \item Carga electrica
+%   \item Conservación de la carga
+%   \end{itemize}
 
-\end{frame}
+% \end{frame}
 
-\begin{frame}
-  \frametitle{Formas de electrizar objetos}
+% \begin{frame}
+%   \frametitle{Formas de electrizar objetos}
   
-\end{frame}
+% \end{frame}
 
-\begin{frame}
-  \frametitle{Conductores y Aislantes}
+% \begin{frame}
+%   \frametitle{Conductores y Aislantes}
   
-\end{frame}
+% \end{frame}
 
 \section{Electrostática}
 
@@ -88,18 +88,147 @@
     que lo contiene.
   \end{block}
   
-  {\huge \[\frac{F}{A} = \frac{f}{a}\]}
+  {\huge \[F = k  \frac{q_1 q_2}{r^2}\]}
   
   \begin{tabular}{ll}
-    $F:$ & Fuerza sobre émbolo mayor (N).  \\ 
-    $A:$ & Área del émbolo mayor (m$^2$) \\ 
-    $f:$ & Fuerza sobre émbolo menor (N). \\
-    $a:$ & Área del émbolo menor (m$^2$) \\
+    $F:$ & Fuerza (N).  \\ 
+    $k:$ & Constante de proporcionalidad (Nm$^2$/C$^2$) \\ 
+    $q_i:$ & Carga eléctrica (C). \\
+    $r:$ & Distancia entre cargas (m) \\
   \end{tabular}
   
 \end{frame}
 
 \section{Electrodinámica}
 
+\begin{frame}
+  \frametitle{Intensidad de corriente eléctrica}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[I =\frac{q}{t}\]}
+  
+  \begin{tabular}{ll}
+    $I$ & Intensidad de corriente (A).  \\ 
+    $q:$ & Carga eléctrica (C) \\ 
+    $t:$ & Tiempo (s) \\
+
+  \end{tabular}
+  
+\end{frame}
+
+
+
+
+\begin{frame}
+  \frametitle{Resistencia y Resistividad}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[R = \rho \frac{L}{A}\]}
+  
+  \begin{tabular}{ll}
+    $R$ & Resistencia del conductor ($\Omega$).  \\ 
+    $\rho:$ & Resistividad del material ($\Omega$m) \\ 
+    $L:$ & Longitud (m) \\
+    $A:$ & Área (m$^2$) \\
+  \end{tabular}
+  
+\end{frame}
+
+\begin{frame}
+  \frametitle{Resistencia y Resistividad}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[R_t = R_0 (1+\alpha T)\]}
+  
+  \begin{tabular}{ll}
+    $R_t$ & Resistencia del conductor a cierta temperatura ($\Omega$).  \\ 
+    $R_0$ & Resistencia del conductor a 0 \celsius ($\Omega$).  \\ 
+    $\alpha:$ & Coef. de temperatura de resistencia del material (1 / \celsius). \\ 
+    $T:$ & Temperatura (\celsius). \\
+  \end{tabular}
+  
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Ley de Ohm}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[I  = \frac{V}{R}\]}
+  
+  \begin{tabular}{ll}
+    $I:$ & Intensidad de corriente (A).  \\ 
+    $V:$ & Diferencia de potencial (V).  \\ 
+    $R:$ & Resistencia del conductor ($\Omega$). \\ 
+  \end{tabular}
+  
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Resistencia en serie y paralelo}
+  \begin{block}{Conectadas en serie}
+    {\huge \[R_e = R_1 + R_2 + \cdots +R\]}
+  \end{block}
+
+  \begin{block}{Conectadas en paralelo}
+    {\huge \[\frac{1}{R_e} = \frac{1}{R_1}+\frac{1}{R_2}+ \cdots + \frac{1}{R_N}\]}
+  \end{block}
+
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Potencia eléctrica }
+  \begin{block}{Conectadas en serie}
+    {\huge \[P = VI\]}
+  \end{block}
+
+  \begin{tabular}{ll}
+    $P:$ & Potencia eléctrica (W).  \\ 
+    $I:$ & Intensidad de corriente (A).  \\
+    $V:$ & Diferencia de potencial (V).  \\ 
+  \end{tabular}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Ley de Joule}
+  \begin{block}{Conectadas en serie}
+    {\huge \[Q =  0.24I^2Rt\]}
+  \end{block}
+
+  \begin{tabular}{ll}
+    $Q:$ & Calor generado (J).  \\ 
+    $I:$ & Intensidad de corriente (A).  \\ 
+    $R:$ & Resistencia del conductor ($\Omega$). \\ 
+    $t:$ & Tiempo del aparato conectado (s). \\ 
+  \end{tabular}
+
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Capacitancia}
+  \begin{itemize}
+  \item ¿Qué es un capacitor?
+  \item ¿Cuál es la función del capacitor?
+  \item ¿Cuál es la ecuación que relaciona la capacitancia y el voltaje?
+  \item ¿En que unidades se mide la capacitancia?
+  \item ¿Cómo se calcula la capacitancia total de capacitores en serie y en paralelo?
+  \item Dibuja el interior de un capacitor.
+  \end{itemize}
+\end{frame}
 
 \end{document}
