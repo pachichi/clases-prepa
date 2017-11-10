@@ -1,0 +1,221 @@
+\documentclass[handout]{beamer}
+\usetheme[]{Szeged}
+\usecolortheme{beaver}
+\setbeamertemplate{footline}[frame number]
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{textcomp}
+\usepackage{multimedia}
+\DeclareGraphicsExtensions{.png,.pdf,.jpg,.jpeg}
+\graphicspath{{imagenes/}} %directorio donde se guardan las imagenes
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\SetLabelAlign{parright}{\parbox[t]{\labelwidth}{\raggedleft#1}}
+\setlist[description]{style=multiline,topsep=10pt,leftmargin=4cm,align=parright}
+\setlist[itemize]{label=\textbullet}
+
+\title{Física II}
+\author{Bloque 4}
+\institute[UVM]{4\textdegree \hspace{2pt} cuatrimestre.}
+\logo{\includegraphics[width=1.2cm]{uvm}}
+\date{\today}
+
+\newcommand{\celsius}{~\textdegree~C}
+\newcommand{\fahrenheit}{~\textdegree~F}
+\newcommand{\units}[2]{#1$^{#2}$}
+ 
+\begin{document}
+
+\begin{frame}[noframenumbering]
+  \titlepage
+  \begin{center}
+    \includegraphics[width=5.5cm]{uvm1}    
+  \end{center}  
+\end{frame}
+
+\section{Magnetismo}
+
+\begin{frame}
+  \frametitle{Magentismo}
+
+
+  \begin{itemize}
+  \item Características de los imanes.
+  \item Tipos de imanes.
+  \item Campo magnético.
+  \item Magnetismo terrestre.
+  \item Declinación magnética.
+  \item Inclinación magnética.
+  \item Teorías del magnetismo
+  \end{itemize}
+
+
+
+
+\begin{frame}
+  \frametitle{Ley de Coulomb}
+  \begin{block}{}
+    Toda presión que se ejerce sobre un líquido encerrado en un recipiente se transmite
+    con la misma intensidad a todos los puntos del líquido y a las paredes del recipiente
+    que lo contiene.
+  \end{block}
+  
+  {\huge \[F = k  \frac{q_1 q_2}{r^2}\]}
+  
+  \begin{tabular}{ll}
+    $F:$ & Fuerza (N).  \\ 
+    $k:$ & Constante de proporcionalidad (Nm$^2$/C$^2$) \\ 
+    $q_i:$ & Carga eléctrica (C). \\
+    $r:$ & Distancia entre cargas (m) \\
+  \end{tabular}
+  
+\end{frame}
+
+\section{Electromagetismo}
+
+\begin{itemize}
+\item Campo magnético producido por un conductor recto, una espira y un solenoide.
+\item Inducción electromagnética.
+\item Ley de electromagnetismo de Faraday.
+\item Corriente directa y alterna.
+\item Transformadores.
+\item Generador eléctrico.
+\item Motor eléctrico.
+\item Impacto social, cultural y ambiental de las contribuciones de la física.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Intensidad de corriente eléctrica}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[I =\frac{q}{t}\]}
+  
+  \begin{tabular}{ll}
+    $I$ & Intensidad de corriente (A).  \\ 
+    $q:$ & Carga eléctrica (C) \\ 
+    $t:$ & Tiempo (s) \\
+
+  \end{tabular}
+  
+\end{frame}
+
+
+
+
+\begin{frame}
+  \frametitle{Resistencia y Resistividad}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[R = \rho \frac{L}{A}\]}
+  
+  \begin{tabular}{ll}
+    $R$ & Resistencia del conductor ($\Omega$).  \\ 
+    $\rho:$ & Resistividad del material ($\Omega$m) \\ 
+    $L:$ & Longitud (m) \\
+    $A:$ & Área (m$^2$) \\
+  \end{tabular}
+  
+\end{frame}
+
+\begin{frame}
+  \frametitle{Resistencia y Resistividad}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[R_t = R_0 (1+\alpha T)\]}
+  
+  \begin{tabular}{ll}
+    $R_t$ & Resistencia del conductor a cierta temperatura ($\Omega$).  \\ 
+    $R_0$ & Resistencia del conductor a 0 \celsius ($\Omega$).  \\ 
+    $\alpha:$ & Coef. de temperatura de resistencia del material (1 / \celsius). \\ 
+    $T:$ & Temperatura (\celsius). \\
+  \end{tabular}
+  
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Ley de Ohm}
+  % \begin{block}{}
+  %   Corriente electrica
+  % \end{block}
+  
+  {\huge \[I  = \frac{V}{R}\]}
+  
+  \begin{tabular}{ll}
+    $I:$ & Intensidad de corriente (A).  \\ 
+    $V:$ & Diferencia de potencial (V).  \\ 
+    $R:$ & Resistencia del conductor ($\Omega$). \\ 
+  \end{tabular}
+  
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Resistencia en serie y paralelo}
+  \begin{block}{Conectadas en serie}
+    {\huge \[R_e = R_1 + R_2 + \cdots +R\]}
+  \end{block}
+
+  \begin{block}{Conectadas en paralelo}
+    {\huge \[\frac{1}{R_e} = \frac{1}{R_1}+\frac{1}{R_2}+ \cdots + \frac{1}{R_N}\]}
+  \end{block}
+
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Potencia eléctrica }
+  \begin{block}{Conectadas en serie}
+    {\huge \[P = VI\]}
+  \end{block}
+
+  \begin{tabular}{ll}
+    $P:$ & Potencia eléctrica (W).  \\ 
+    $I:$ & Intensidad de corriente (A).  \\
+    $V:$ & Diferencia de potencial (V).  \\ 
+  \end{tabular}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Ley de Joule}
+  \begin{block}{Conectadas en serie}
+    {\huge \[Q =  0.24I^2Rt\]}
+  \end{block}
+
+  \begin{tabular}{ll}
+    $Q:$ & Calor generado (J).  \\ 
+    $I:$ & Intensidad de corriente (A).  \\ 
+    $R:$ & Resistencia del conductor ($\Omega$). \\ 
+    $t:$ & Tiempo del aparato conectado (s). \\ 
+  \end{tabular}
+
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Capacitancia}
+  \begin{itemize}
+  \item ¿Qué es un capacitor?
+  \item ¿Cuál es la función del capacitor?
+  \item ¿Cuál es la ecuación que relaciona la capacitancia y el voltaje?
+  \item ¿En que unidades se mide la capacitancia?
+  \item ¿Cómo se calcula la capacitancia total de capacitores en serie y en paralelo?
+  \item Dibuja el interior de un capacitor.
+  \end{itemize}
+\end{frame}
+
+\end{document}
